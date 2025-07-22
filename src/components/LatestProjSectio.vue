@@ -77,7 +77,7 @@ const Projects = ref([
   {
     id: 1,
     category: "web development",
-    Image: "src/assets/clean.jpg",
+    Image: "@/assets/clean.jpg",
     title: "CLEANING CO. (RESPONSIVE) ",
     description:
       "Key Features : Fully responsive design for all devices using Vue.js + TailwindCSS - Supports both light and dark modes - Navigation bar with hamburger menu on small screens - Sidebar opens from the side and closes automatically upon section. Smooth scrolling between sections when links are clicked ",
