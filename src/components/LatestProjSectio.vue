@@ -30,7 +30,6 @@
               backgroundSize: 'cover',
             }"
           ></div>
-
           <div
             class="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500"
           ></div>
@@ -58,6 +57,12 @@
                 <p class="px-1 py-2">{{ technolgy }}</p>
               </div>
             </div>
+            <a :href="project.webURL" target="_blank">
+              <strong
+                class="text-gray-200 right-0 text-xs flex justify-center underline"
+                >Vist Site</strong
+              ></a
+            >
           </div>
         </div>
       </ul>
@@ -72,52 +77,107 @@ const Projects = ref([
   {
     id: 1,
     category: "web development",
-    Image: "src/assets/web1.jpg",
-    title: "project 1",
+    Image: "src/assets/clean.jpg",
+    title: "CLEANING CO. (RESPONSIVE) ",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptas aut officiis quam eaque doloribus saepe qui soluta rerum corrupti perferendis ipsum libero, accusantium consequatur sunt impedit. Repellat, porro rerum!",
-    technologies: ["vue.js 3", "vuex", "Express"],
+      "Key Features : Fully responsive design for all devices using Vue.js + TailwindCSS - Supports both light and dark modes - Navigation bar with hamburger menu on small screens - Sidebar opens from the side and closes automatically upon section. Smooth scrolling between sections when links are clicked ",
+    technologies: ["HTML", "CSS", "JavaScript"],
     gitURL: "",
-    webURL: "",
+    webURL: "https://hassan-abd-el-aziz.github.io/FreeCoolCo/",
   },
   {
     id: 2,
-    category: "mobile App",
-    Image: "src/assets/mob1.jpg",
-    title: "project 1",
+    category: "web development",
+    Image: "src/assets/Dats.jpg",
+    title: "DATESCO. (RESPONSIVE) ",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptas aut officiis quam eaque doloribus saepe qui soluta rerum corrupti perferendis ipsum libero, accusantium consequatur sunt impedit. Repellat, porro rerum!",
-    technologies: ["vue.js 3", "vuex", "Express"],
+      "key Features : Fully responsive design for all devices using HTML, CSS, and JavaScript - Uses Flexbox and Grid for flexible layout system - Supports both Arabic and English languages - Stores language preference in localStorage - Dual color scheme (dark/light mode) - Hamburger menu for mobile devices - Scroll animations (fade-in, slide-in) - Fixed WhatsApp button for quick communication - Smooth CSS transitions - Card rotation effects -",
+    technologies: ["HTML", "CSS", "JavaScript"],
     gitURL: "",
-    webURL: "",
+    webURL: "https://hassan-abd-el-aziz.github.io/Durar-Dates-Co/",
   },
+
   {
     id: 3,
     category: "web development",
-    Image: "src/assets/web2.jpg",
-    title: "project 1",
+    Image: "src/assets/clean2.jpg",
+    title: "CLEANING CO.  (RESPONSIVE)",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptas aut officiis quam eaque doloribus saepe qui soluta rerum corrupti perferendis ipsum libero, accusantium consequatur sunt impedit. Repellat, porro rerum!",
-    technologies: ["vue.js 3", "vuex", "Express"],
+      "Key Features : Fully responsive design for all devices using Vue.js + TailwindCSS  -Supports both light and dark modes  - Navigation bar with hamburger menu on small screens - Sidebar opens from the side and closes automatically upon section selection - Smooth scrolling between sections when links are clicked",
+    technologies: ["vue.js 3", "TailwindCss", "vite"],
     gitURL: "",
-    webURL: "",
+    webURL: "https://hassan-abd-el-aziz.github.io/vue-website/",
   },
   {
     id: 4,
-    category: "mobile App",
-    Image: "src/assets/mob2.jpg",
-    title: "project 1",
+    category: "web development",
+    Image: "src/assets/dashboard.jpg",
+    title: "DASHBOARD  (RESPONSIVE)",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptas aut officiis quam eaque doloribus saepe qui soluta rerum corrupti perferendis ipsum libero, accusantium consequatur sunt impedit. Repellat, porro rerum!",
-    technologies: ["vue.js 3", "vuex", "Express"],
+      "developed a responsive admin panel with real-time analytics using vue.js, Vite ,Tailwind CSS ",
+    technologies: ["vue.js 3", "Tailwind CSS", "Vite"],
     gitURL: "",
-    webURL: "",
+    webURL: "https://hassan-abd-el-aziz.github.io/Deploy-Dashboard/",
   },
   {
     id: 5,
     category: "web development",
-    Image: "src/assets/cofe.png",
-    title: "project 1",
+    Image: "src/assets/login.jpg",
+    title: "LOGIN PAGE  (RESPONSIVE)",
+    description: "designed and developed a login page to showcase my skills ",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    gitURL: "",
+    webURL: "https://hassan-abd-el-aziz.github.io/Login-Signup/",
+  },
+  {
+    id: 6,
+    category: "web development",
+    Image: "src/assets/travel.jpg",
+    title: "TRAVEL WEBSITE  (RESPONSIVE) ",
+    description:
+      "designed and developed a Travel website to showcase my skills using HTML, CSS, and JavaScript.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    gitURL: "",
+    webURL: "https://hassan-abd-el-aziz.github.io/Travel/",
+  },
+  {
+    id: 7,
+    category: "web development",
+    Image: "src/assets/profile.jpg",
+    title: "3D PROFILE ",
+    description:
+      "designed and developed a coffee shop website to showcase my skills using HTML, CSS, and JavaScript.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    gitURL: "",
+    webURL: "https://hassan-abd-el-aziz.github.io/3D-profile/",
+  },
+  {
+    id: 8,
+    category: "web development",
+    Image: "src/assets/elev.jpg",
+    title: "ELEVATOR CO. (RESPONSIVE) ",
+    description:
+      "Key Features: Fully Responsive Design - Bilingual Support (Arabic/English) - Dynamic Visuals - High Performance - Key Sections - Modern Elements - Easy Customization",
+    technologies: ["vue.js 3", "TailwindCss"],
+    gitURL: "",
+    webURL: "https://hassan-abd-el-aziz.github.io/ElevatorCoWebsite/",
+  },
+  {
+    id: 9,
+    category: "web development",
+    Image: "src/assets/clean3.jpg",
+    title: "House-Cleaning CO. (RESPONSIVE) ",
+    description:
+      "Modern One-Page Design with dark/light mode toggle, smooth animations (AOS, Swiper), and intuitive circular navigation for seamless user experience. High-Conversion Elements like fixed WhatsApp/call buttons, animated statistics counter, service selection contact form, and fully responsive layout.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    gitURL: "",
+    webURL: "https://hassan-abd-el-aziz.github.io/House-Cleaning/",
+  },
+  {
+    id: 10,
+    category: "mobile App",
+    Image: "src/assets/mob2.jpg",
+    title: "mobile App for...",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptas aut officiis quam eaque doloribus saepe qui soluta rerum corrupti perferendis ipsum libero, accusantium consequatur sunt impedit. Repellat, porro rerum!",
     technologies: ["vue.js 3", "vuex", "Express"],
@@ -125,10 +185,21 @@ const Projects = ref([
     webURL: "",
   },
   {
-    id: 6,
+    id: 11,
     category: "mobile App",
     Image: "src/assets/mob1.jpg",
-    title: "project 1",
+    title: "mobile App for...",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptas aut officiis quam eaque doloribus saepe qui soluta rerum corrupti perferendis ipsum libero, accusantium consequatur sunt impedit. Repellat, porro rerum!",
+    technologies: ["vue.js 3", "vuex", "Express"],
+    gitURL: "",
+    webURL: "",
+  },
+  {
+    id: 12,
+    category: "mobile App",
+    Image: "src/assets/mob3.jpg",
+    title: "mobile App for...",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptas aut officiis quam eaque doloribus saepe qui soluta rerum corrupti perferendis ipsum libero, accusantium consequatur sunt impedit. Repellat, porro rerum!",
     technologies: ["vue.js 3", "vuex", "Express"],

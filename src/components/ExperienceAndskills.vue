@@ -98,6 +98,26 @@ const skills = ref([
     name: "TypeScript",
     width: "80%",
   },
+  {
+    id: 7,
+    name: "ReactJS",
+    width: "75%",
+  },
+  {
+    id: 8,
+    name: "Photoshop",
+    width: "90%",
+  },
+  {
+    id: 9,
+    name: "Microsoft Office",
+    width: "95%",
+  },
+  {
+    id: 10,
+    name: "Illustrator",
+    width: "75%",
+  },
 ]);
 
 const Experinces = ref([

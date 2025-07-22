@@ -9,10 +9,8 @@
     >
       <div>
         <p class="text-[#adb7be]">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus,
-          delectus repellendus. Asperiores sequi aut, ratione, aspernatur
-          eligendi et laboriosam corporis, qui impedit iste natus modi nostrum
-          iure a. Quisquam, quod.
+          Always open to new opportunities and collaborations. Reach out via
+          email, Phone or LinkedIn
         </p>
         <div class="col-lg-4 col-md-4 mb-lg-0 mt-5">
           <div class="flex mb-10 items-center">
@@ -39,7 +37,11 @@
             </div>
             <div class="ml-5 text-white">
               <h4>Email</h4>
-              <p>xxxxxxx@gmail.com</p>
+              <p>
+                <a href="mailto:hassanabdelaziz940@gmail.com"
+                  >hassanabdelaziz940@gmail.com</a
+                >
+              </p>
             </div>
           </div>
           <div class="flex mb-10 items-center">
@@ -66,7 +68,9 @@
             </div>
             <div class="ml-5 text-white">
               <h4>Phone</h4>
-              <p>+2 0100 903 9628</p>
+              <p>
+                <a href="tel:+201009039628">+2 0100 903 9628</a>
+              </p>
             </div>
           </div>
           <div class="flex mb-10 items-center">
@@ -93,7 +97,12 @@
             </div>
             <div class="ml-5 text-white">
               <h4>LinkedIn</h4>
-              <p>www.LinkedIn.com</p>
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/hassan-abdelaziz-5b2299168/"
+                  >www.LinkedIn.com</a
+                >
+              </p>
             </div>
           </div>
         </div>
@@ -157,8 +166,9 @@
           </button>
         </form>
       </div>
-      <div class="bg-gradient-to-tr opacity-25 from-[#570cac] to-primary blur-2xl h-20 w-80 z-0
-       absolute -top-1/2 -left-4 transform -translate-x-2/3 -translate-1/2"></div>
+      <div
+        class="bg-gradient-to-tr opacity-25 from-[#570cac] to-primary blur-2xl h-20 w-80 z-0 absolute -top-1/2 -left-4 transform -translate-x-2/3 -translate-1/2"
+      ></div>
     </div>
   </section>
 </template>

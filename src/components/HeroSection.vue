@@ -30,11 +30,12 @@
           <p
             class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl"
           >
-            Frontend Developer ( I am looking for an opportunity to develop my
-            Frontend Development skills by working in a stimulating and learning
-            environment. I seek to contribute to innovative projects and develop
-            outstanding user experiences using the latest technologies and
-            tools. My goal is to continue learning new technologies )
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500"
+              >Software Engineer (Frontend) </span
+            >( seek to contribute to innovative projects and develop outstanding
+            user experiences using the latest technologies and tools. I am a
+            fast learner, and my goal is to continue learning new technologies )
           </p>
           <div
             class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0"
@@ -45,9 +46,11 @@
               <span
                 class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent"
               ></span>
-              <span class="relative flex items-center justify-center text-white"
-                >Hire Me</span
+              <span
+                class="relative flex items-center justify-center text-white"
               >
+                <a href="#contact">Hire Me</a>
+              </span>
             </button>
             <button
               class="border border-primary px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center"
@@ -59,8 +62,8 @@
                   <div class="download-loader text-white hidden"></div>
                 </div>
                 <a
-                  href="/src/assets/Cv Frontend Hassan.pdf"
-                  download="Cv Frontend Hassan.pdf"
+                  href="../assets/Cv Frontend Hassan 22-07-2025.pdf"
+                  download="Cv Frontend Hassan 22-07-2025.pdf"
                   class="pl-2 text-primary"
                   >Download resume</a
                 >
