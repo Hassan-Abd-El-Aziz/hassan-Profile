@@ -28,6 +28,8 @@
             :style="{
               backgroundImage: 'url(' + project.Image + ')',
               backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat',
             }"
           ></div>
           <div
@@ -77,8 +79,7 @@ const Projects = ref([
   {
     id: 1,
     category: "web development",
-    Image:
-      "https://drive.google.com/file/d/1l9Lbnr-PGMGu0i7MqOu5MTcZV01o-aeo/view",
+    Image: "https://i.ibb.co/Pv6yCxDH/clean.png",
     title: "CLEANING CO. (RESPONSIVE) ",
     description:
       "Key Features : Fully responsive design for all devices using Vue.js + TailwindCSS - Supports both light and dark modes - Navigation bar with hamburger menu on small screens - Sidebar opens from the side and closes automatically upon section. Smooth scrolling between sections when links are clicked ",
@@ -89,7 +90,7 @@ const Projects = ref([
   {
     id: 2,
     category: "web development",
-    Image: "src/assets/Dats.jpg",
+    Image: "https://i.ibb.co/s9ZNZtC4/Dats.png",
     title: "DATESCO. (RESPONSIVE) ",
     description:
       "key Features : Fully responsive design for all devices using HTML, CSS, and JavaScript - Uses Flexbox and Grid for flexible layout system - Supports both Arabic and English languages - Stores language preference in localStorage - Dual color scheme (dark/light mode) - Hamburger menu for mobile devices - Scroll animations (fade-in, slide-in) - Fixed WhatsApp button for quick communication - Smooth CSS transitions - Card rotation effects -",
@@ -101,7 +102,7 @@ const Projects = ref([
   {
     id: 3,
     category: "web development",
-    Image: "src/assets/clean2.jpg",
+    Image: "https://i.ibb.co/HLF80fLv/clean2.png",
     title: "CLEANING CO.  (RESPONSIVE)",
     description:
       "Key Features : Fully responsive design for all devices using Vue.js + TailwindCSS  -Supports both light and dark modes  - Navigation bar with hamburger menu on small screens - Sidebar opens from the side and closes automatically upon section selection - Smooth scrolling between sections when links are clicked",
@@ -112,7 +113,7 @@ const Projects = ref([
   {
     id: 4,
     category: "web development",
-    Image: "src/assets/dashboard.jpg",
+    Image: "https://i.ibb.co/XZvXtVW8/dashboard.png",
     title: "DASHBOARD  (RESPONSIVE)",
     description:
       "developed a responsive admin panel with real-time analytics using vue.js, Vite ,Tailwind CSS ",
@@ -123,7 +124,7 @@ const Projects = ref([
   {
     id: 5,
     category: "web development",
-    Image: "src/assets/login.jpg",
+    Image: "https://i.ibb.co/zWMdP27z/login.png",
     title: "LOGIN PAGE  (RESPONSIVE)",
     description: "designed and developed a login page to showcase my skills ",
     technologies: ["HTML", "CSS", "JavaScript"],
@@ -133,7 +134,7 @@ const Projects = ref([
   {
     id: 6,
     category: "web development",
-    Image: "src/assets/travel.jpg",
+    Image: "https://i.ibb.co/vCydLz8Z/travel.png",
     title: "TRAVEL WEBSITE  (RESPONSIVE) ",
     description:
       "designed and developed a Travel website to showcase my skills using HTML, CSS, and JavaScript.",
@@ -144,7 +145,7 @@ const Projects = ref([
   {
     id: 7,
     category: "web development",
-    Image: "src/assets/profile.jpg",
+    Image: "https://i.ibb.co/PvQkwyL0/profile.png",
     title: "3D PROFILE ",
     description:
       "designed and developed a coffee shop website to showcase my skills using HTML, CSS, and JavaScript.",
@@ -155,7 +156,7 @@ const Projects = ref([
   {
     id: 8,
     category: "web development",
-    Image: "src/assets/elev.jpg",
+    Image: "https://i.ibb.co/xtg9JYNp/elev.png",
     title: "ELEVATOR CO. (RESPONSIVE) ",
     description:
       "Key Features: Fully Responsive Design - Bilingual Support (Arabic/English) - Dynamic Visuals - High Performance - Key Sections - Modern Elements - Easy Customization",
@@ -166,7 +167,7 @@ const Projects = ref([
   {
     id: 9,
     category: "web development",
-    Image: "src/assets/clean3.jpg",
+    Image: "https://i.ibb.co/tpwThvF6/clean3.jpg",
     title: "House-Cleaning CO. (RESPONSIVE) ",
     description:
       "Modern One-Page Design with dark/light mode toggle, smooth animations (AOS, Swiper), and intuitive circular navigation for seamless user experience. High-Conversion Elements like fixed WhatsApp/call buttons, animated statistics counter, service selection contact form, and fully responsive layout.",
@@ -177,7 +178,7 @@ const Projects = ref([
   {
     id: 10,
     category: "mobile App",
-    Image: "src/assets/mob2.jpg",
+    Image: "https://i.ibb.co/RGT2hjB8/mob3.jpg",
     title: "mobile App for...",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptas aut officiis quam eaque doloribus saepe qui soluta rerum corrupti perferendis ipsum libero, accusantium consequatur sunt impedit. Repellat, porro rerum!",
