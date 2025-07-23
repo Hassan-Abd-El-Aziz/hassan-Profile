@@ -189,7 +189,7 @@ const Projects = ref([
   {
     id: 11,
     category: "mobile App",
-    Image: "src/assets/mob1.jpg",
+    Image: "https://i.ibb.co/zHSDkSFZ/mob1.png",
     title: "mobile App for...",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptas aut officiis quam eaque doloribus saepe qui soluta rerum corrupti perferendis ipsum libero, accusantium consequatur sunt impedit. Repellat, porro rerum!",
@@ -200,7 +200,7 @@ const Projects = ref([
   {
     id: 12,
     category: "mobile App",
-    Image: "src/assets/mob3.jpg",
+    Image: "https://i.ibb.co/GQdyzVkv/mob2.webp",
     title: "mobile App for...",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptas aut officiis quam eaque doloribus saepe qui soluta rerum corrupti perferendis ipsum libero, accusantium consequatur sunt impedit. Repellat, porro rerum!",

@@ -2,7 +2,11 @@
   <header
     class="flex justify-between items-center p-6 bg-opacity-50 relative z-20"
   >
-    <div class="text-white text-3xl font-bold">LOGO</div>
+    <div
+      class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500"
+    >
+      H
+    </div>
     <!-- mobile Toggle Btn -->
     <div class="md:hidden z-30">
       <button
