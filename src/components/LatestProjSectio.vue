@@ -177,6 +177,17 @@ const Projects = ref([
   },
   {
     id: 10,
+    category: "web development",
+    Image: "https://i.ibb.co/Mk9WDhfG/hoor.jpg",
+    title: "Hoor-Cleaning CO. (RESPONSIVE) ",
+    description:
+      "Modern One-Page Design with dark/light mode toggle, smooth animations (AOS, Swiper), and intuitive circular navigation for seamless user experience. High-Conversion Elements like fixed WhatsApp/call buttons, animated statistics counter, service selection contact form, and fully responsive layout.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    gitURL: "",
+    webURL: "https://hassan-abd-el-aziz.github.io/HoorClean/",
+  },
+  {
+    id: 11,
     category: "mobile App",
     Image: "https://i.ibb.co/RGT2hjB8/mob3.jpg",
     title: "mobile App for...",
@@ -187,7 +198,7 @@ const Projects = ref([
     webURL: "",
   },
   {
-    id: 11,
+    id: 12,
     category: "mobile App",
     Image: "https://i.ibb.co/zHSDkSFZ/mob1.png",
     title: "mobile App for...",
@@ -198,7 +209,7 @@ const Projects = ref([
     webURL: "",
   },
   {
-    id: 12,
+    id: 13,
     category: "mobile App",
     Image: "https://i.ibb.co/GQdyzVkv/mob2.webp",
     title: "mobile App for...",
