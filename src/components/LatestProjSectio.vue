@@ -85,7 +85,7 @@ const Projects = ref([
       "Key Features : Fully responsive design for all devices using Vue.js + TailwindCSS - Supports both light and dark modes - Navigation bar with hamburger menu on small screens - Sidebar opens from the side and closes automatically upon section. Smooth scrolling between sections when links are clicked ",
     technologies: ["HTML", "CSS", "JavaScript"],
     gitURL: "",
-    webURL: "https://hassan-abd-el-aziz.github.io/FreeCoolCo/",
+    webURL: "https://free-cool.com/",
   },
   {
     id: 2,
@@ -173,7 +173,7 @@ const Projects = ref([
       "Modern One-Page Design with dark/light mode toggle, smooth animations (AOS, Swiper), and intuitive circular navigation for seamless user experience. High-Conversion Elements like fixed WhatsApp/call buttons, animated statistics counter, service selection contact form, and fully responsive layout.",
     technologies: ["HTML", "CSS", "JavaScript"],
     gitURL: "",
-    webURL: "https://hassan-abd-el-aziz.github.io/House-Cleaning/",
+    webURL: "https://home-vision.info/",
   },
   {
     id: 10,
@@ -184,10 +184,21 @@ const Projects = ref([
       "Modern One-Page Design with dark/light mode toggle, smooth animations (AOS, Swiper), and intuitive circular navigation for seamless user experience. High-Conversion Elements like fixed WhatsApp/call buttons, animated statistics counter, service selection contact form, and fully responsive layout.",
     technologies: ["HTML", "CSS", "JavaScript"],
     gitURL: "",
-    webURL: "https://hassan-abd-el-aziz.github.io/HoorClean/",
+    webURL: "https://hoor-clean.org/",
   },
   {
     id: 11,
+    category: "web development",
+    Image: "https://i.ibb.co/Xkpdp8kc/ecom.jpg",
+    title: "Ecommerce. (RESPONSIVE) ",
+    description:
+      "Modern Design, Lorem ipsum dolor sit amet consectetur, adipisicing elit",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    gitURL: "",
+    webURL: "https://hassan-abd-el-aziz.github.io/Ecommerce-Website-/",
+  },
+  {
+    id: 12,
     category: "mobile App",
     Image: "https://i.ibb.co/RGT2hjB8/mob3.jpg",
     title: "mobile App for...",
@@ -198,7 +209,7 @@ const Projects = ref([
     webURL: "",
   },
   {
-    id: 12,
+    id: 13,
     category: "mobile App",
     Image: "https://i.ibb.co/zHSDkSFZ/mob1.png",
     title: "mobile App for...",
@@ -209,7 +220,7 @@ const Projects = ref([
     webURL: "",
   },
   {
-    id: 13,
+    id: 14,
     category: "mobile App",
     Image: "https://i.ibb.co/GQdyzVkv/mob2.webp",
     title: "mobile App for...",
