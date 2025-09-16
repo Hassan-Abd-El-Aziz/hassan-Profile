@@ -192,13 +192,25 @@ const Projects = ref([
     Image: "https://i.ibb.co/Xkpdp8kc/ecom.jpg",
     title: "Ecommerce. (RESPONSIVE) ",
     description:
-      "Modern Design, Lorem ipsum dolor sit amet consectetur, adipisicing elit",
+      "Modern Design, Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptas aut officiis quam eaque doloribus saepe qui soluta rerum corrupti perferendis ipsum libero,",
     technologies: ["HTML", "CSS", "JavaScript"],
     gitURL: "",
     webURL: "https://hassan-abd-el-aziz.github.io/Ecommerce-Website-/",
   },
+
   {
     id: 12,
+    category: "web development",
+    Image: "https://i.ibb.co/CDLQqvL/hospital.png",
+    title: "Hospital-Website. (RESPONSIVE) ",
+    description:
+      "Modern Design,smooth animations (AOS, Swiper), Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptas aut officiis quam eaque doloribus saepe qui soluta rerum corrupti perferendis ipsum libero,",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    gitURL: "",
+    webURL: "https://hassan-abd-el-aziz.github.io/Hospital/",
+  },
+  {
+    id: 13,
     category: "mobile App",
     Image: "https://i.ibb.co/RGT2hjB8/mob3.jpg",
     title: "mobile App for...",
@@ -209,7 +221,7 @@ const Projects = ref([
     webURL: "",
   },
   {
-    id: 13,
+    id: 14,
     category: "mobile App",
     Image: "https://i.ibb.co/zHSDkSFZ/mob1.png",
     title: "mobile App for...",
@@ -220,7 +232,7 @@ const Projects = ref([
     webURL: "",
   },
   {
-    id: 14,
+    id: 15,
     category: "mobile App",
     Image: "https://i.ibb.co/GQdyzVkv/mob2.webp",
     title: "mobile App for...",
