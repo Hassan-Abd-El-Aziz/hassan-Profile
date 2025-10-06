@@ -105,24 +105,23 @@ const skills = ref([
   },
   {
     id: 8,
-    name: "Photoshop",
-    width: "90%",
+    name: "Python",
+    width: "80%",
   },
   {
     id: 9,
-    name: "Microsoft Office",
-    width: "95%",
+    name: "Photoshop",
+    width: "90%",
   },
   {
     id: 10,
     name: "Illustrator",
     width: "75%",
   },
-  ,
   {
     id: 11,
-    name: "Python",
-    width: "80%",
+    name: "Microsoft Office",
+    width: "95%",
   },
 ]);
 
