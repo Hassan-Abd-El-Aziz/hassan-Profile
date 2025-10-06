@@ -118,6 +118,12 @@ const skills = ref([
     name: "Illustrator",
     width: "75%",
   },
+  ,
+  {
+    id: 11,
+    name: "Python",
+    width: "80%",
+  },
 ]);
 
 const Experinces = ref([

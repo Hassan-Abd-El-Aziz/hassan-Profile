@@ -14,7 +14,7 @@
         data-aos="fade-up"
         class="px-8 py-12 rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]"
       >
-        <div class="mx-auto h-24 text-center xl:h-28 xl:w-28 ">
+        <div class="mx-auto h-24 text-center xl:h-28 xl:w-28">
           <div class="flex justify-center">
             <img :src="service.icon" alt="service icon" />
           </div>
@@ -39,7 +39,7 @@ const services = ref([
   {
     id: 1,
     icon: "https://img.icons8.com/ios-filled/100/ffffff/google-code.png",
-    name: "Web Develoment",
+    name: "Web Development",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, consequuntur.",
   },
@@ -52,11 +52,12 @@ const services = ref([
   },
   {
     id: 3,
-    icon: "https://img.icons8.com/?size=100&id=101315&format=png&color=ffffff",
-    name: "Office manager",
+    icon: "https://img.icons8.com/?size=100&id=u2ncVA91xE5q&format=png&color=ffffff",
+    name: "Web Design",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, consequuntur.",
   },
+
   {
     id: 4,
     icon: "https://img.icons8.com/?size=100&id=100050&format=png&color=ffffff",
@@ -72,9 +73,9 @@ const services = ref([
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, consequuntur.",
   },
   {
-    id: 5,
-    icon: "https://img.icons8.com/?size=100&id=u2ncVA91xE5q&format=png&color=ffffff",
-    name: "Web Design",
+    id: 6,
+    icon: "https://img.icons8.com/?size=100&id=101315&format=png&color=ffffff",
+    name: "Office manager",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, consequuntur.",
   },
